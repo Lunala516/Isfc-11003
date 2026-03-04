@@ -64,6 +64,16 @@ header.primary{
   color:#ffffff;
   text-align:center;
   text-shadow:2px 2px #000000;
+ /* longform (dont use most of the time) */
+  padding-top:20px;
+  padding-right:20px;
+  padding-left:20px;
+  padding-bottom:20px;
+  /* single value */
+  padding:20px;
+  /* T/R/B/L */
+  padding: 20px 40px 20px 40px;
+
 }
 
 header.primary a{
@@ -71,7 +81,31 @@ header.primary a{
   text-decoration:none;
 }
 
+header.primary h1{
+  font-size: 2.0rem;
+  margin:0;
+}
 
+header.primary p.subtitle{
+  font-size: 1.5rem;
+  margin:10px 0;
+}
+nav.primary ul{
+  padding:0;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+}
+nav.primary li{
+  list-style-type:upper-roman;
+}
 
-
-
+nav.primary ul li a{
+  background-color:rgba(0,0,0,.5);
+  padding: 5px 7.5px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+nav.primary ul li a:hover{
+background-color: rgba(0,0,0,.8);
+}
