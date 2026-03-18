@@ -60,7 +60,7 @@ body {
 
 
 header.primary{
-  background-color:#3b6b8b;
+  background-color:#FACEF4;
   color:#ffffff;
   text-align:center;
   text-shadow:2px 2px #000000;
@@ -108,4 +108,73 @@ nav.primary ul li a{
 }
 nav.primary ul li a:hover{
 background-color: rgba(0,0,0,.8);
+}
+
+#content h2{
+  color:#3b638b;
+  border-bottom:1px dashed #c0c0c0;
+}
+
+#content p{
+  line-height:1.6;
+}
+
+#blog{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  gap:20px;
+  flex-wrap: wrap;
+}
+
+figure{
+  margin:0;
+}
+
+#blog article.post{
+  box-shadow:0 4px 8px rgba(0,0,0,.6);
+  padding:10px;
+  font-size: .8rem;
+  flex:1;
+}
+h2#recent-posts{
+  flex:0 0 100%;
+  
+}
+
+article.post time, article.post figcaption{
+ text-transform: uppercase;
+ font-size: .6rem;
+}
+
+article.post a{
+color:#CDE5FA;
+}
+
+aside[aria-label="sidebar"]{
+  background-color: #D8FACD;
+}
+
+aside .container{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  gap:40px;
+
+}
+aside .container a:last-child{
+  color:#ffffff;
+  display:block;
+  text-align:right;
+  margin-top:20px;
+}
+
+aside footer{
+  display:none;
+}
+footer.primary{
+  background-color:#FACEF4;
+  color:#ffffff;
+  text-shadow:2px 2px #000000;
+  padding:2px;
 }
