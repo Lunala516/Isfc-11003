@@ -261,3 +261,16 @@ th{
   background-color: #ffc8c6;
   padding: 10px;
 }
+
+blockquote{
+  background-color:#facef4;
+  border:2px double #ffffff;
+  border-radius: 20px;
+  padding: 10px
+}
+cite{
+  display:block;
+  text-align:right;
+  font-size:.9rem;
+  margin-top: 5px;
+}
